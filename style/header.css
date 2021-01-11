@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa:wght@700&family=Pacifico&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+header {
+	background-color:  #ffc09e;
+	height: 100px;
+	padding: 10px;
+	display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+header .box {
+    width: 100px;
+    flex-grow: 1;
+    background-color: #f8ff75;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+header .box:hover {
+    background-color: #9effca;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+header .box a {
+    color: #d95f5f;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+header .box a:hover {
+    color: #ffff;
+}
+p{
+    color: #f5adff;
+    text-align: center;
+}
+img{
+    text-align: center;
+}
